@@ -22,7 +22,7 @@ Run `aws ecr get-login-password --region us-east-1 | docker login --username AWS
 This command retrieves a temporary authentication token from AWS ECR (Elastic Container Registry) and uses it to log in to the specified ECR registry for Docker operations.
 
 If the log in was successful, you should see: 
-![alt text](screenshots/loginsuceeded.png.png)
+![alt text](screenshots/loginsuceeded.png)
 
 ## STEP 2: Build the Image
 An image is built based on the Dockerfile
@@ -77,7 +77,7 @@ set the health check path to /sports
 Click create
 
 To view the load balancer, go to EC2 > Load balancing > load balancers, the load balancer should appear there once created
-![alt text](screenshots/alb-created.png.png)
+![alt text](screenshots/alb-created.png)
 
 Running Services
 ![alt text](screenshots/services-created.png)
