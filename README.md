@@ -99,4 +99,4 @@ The endpoint url will be the url we used to access the data previously
 
 Next click on deploy API
 
-![alt text](screenshots/api-gateway-methods.png.png)
+![alt text](screenshots/api-gateway-methods.png)
