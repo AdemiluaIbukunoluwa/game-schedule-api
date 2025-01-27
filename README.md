@@ -87,7 +87,7 @@ The newly created API will be the DNS name attached to the loadbalancer
 add the suffix, /sports to the DNS url since that was the path set when creating the loadbalancer: 
 
 Using this url, we can access the data
-![alt text](screenshots/api-data.png.png)
+![alt text](screenshots/api-data.png)
 
 
 ## Step 7: Accessing the api using a gateway
