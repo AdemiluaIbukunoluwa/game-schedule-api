@@ -1,12 +1,20 @@
 # GAME SCHEDULE
-This system fetches data from a sports API, processes the data using container
 
-## Terminologies
-A **container** allows us to run and package apps and the required dependencies that the application needs<br/>
-Having multiple containers provides high availability, the application load balancer directs traffic between the containers<br/>
-A **dockerfile** creates an image from the container<br/>
-**ECS** runs the dockerized flask app in a scalable serverless environment using AWS Fargate - serverless compute for ECS<br/>
-The **API Gateway** creates the sports api endpoint which users will use to access the data
+## SPORTS API Management System
+
+This project illustrates the creation of a containerized API management system designed for retrieving sports data. It utilizes Amazon ECS (Fargate) to run containers, Amazon API Gateway to provide REST endpoints, and an external Sports API to acquire real-time sports information. 
+The initiative highlights advanced practices in cloud computing, such as API management, container orchestration, and secure integrations with AWS. This system retrieves data from a sports API and processes it using containers.
+
+## Technical Architecture
+
+![alt text](screenshots/api-creation.drawio.png)
+
+## Technologies
+**Cloud Provider:** AWS
+**Core Services:** Amazon ECS (Fargate), API Gateway, CloudWatch
+**Programming Language:** Python 3.x
+**Containerization:** Docker
+**IAM Security:** Custom least privilege policies for ECS task execution and API Gateway
 
 
 ## STEP 1: Create ECR Repository
