@@ -1,10 +1,11 @@
 # GAME SCHEDULE
+This system fetches data from a sports API, processes the data using container
 
-
-A **container** allows us to run and package apps and the required dependencies that the application needs
-Having multiple containers provides high availability, the application load balancer directs traffic between the containers
-A **dockerfile** creates an image from the container
-**ECS** runs the dockerized flask app in a scalable serverless environment using AWS Fargate - serverless compute for ECS
+## Terminologies
+A **container** allows us to run and package apps and the required dependencies that the application needs<br/>
+Having multiple containers provides high availability, the application load balancer directs traffic between the containers<br/>
+A **dockerfile** creates an image from the container<br/>
+**ECS** runs the dockerized flask app in a scalable serverless environment using AWS Fargate - serverless compute for ECS<br/>
 The **API Gateway** creates the sports api endpoint which users will use to access the data
 
 
@@ -100,3 +101,5 @@ The endpoint url will be the url we used to access the data previously
 Next click on deploy API
 
 ![alt text](screenshots/api-gateway-methods.png)
+
+Using the endpoint url, we can now access the sports schedule data
